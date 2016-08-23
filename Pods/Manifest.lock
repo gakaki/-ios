@@ -1,0 +1,18 @@
+PODS:
+  - JSONCodable (2.1)
+  - ObjectMapper (1.4.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - JSONCodable
+  - ObjectMapper
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  JSONCodable: d3bb8d1323bb4cbc381b16219046c5282565a4f1
+  ObjectMapper: a07ad0462c5adf014adc0f89ef04c29b626e855e
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 72efd23af06323cc9beb0fb0d46e424eb0d75098
+
+COCOAPODS: 1.1.0.beta.1
