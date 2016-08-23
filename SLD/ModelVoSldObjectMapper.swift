@@ -36,7 +36,6 @@ struct VoSldDataOM {
     var cities:[VoSldOM]          = [] //市
     var districts:[VoSldOM]       = [] //区
     
-    
     mutating func loadJsonObjectMapper() throws {
         if let path = NSBundle.mainBundle().pathForResource("city", ofType: "json") {
             

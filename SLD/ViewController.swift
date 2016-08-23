@@ -43,14 +43,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let d = CityDataManager.data
         
         let stopwatch = Stopwatch()
         
 //        loadJson()
-        loadJsonObjectMapper()
+        self.voSldDataOm = CityDataManager.data
  
-        voSldDataOm.load(self.dataOM!)
         print("elapsed time: \(stopwatch.elapsedTimeString())")
 //
 //        
