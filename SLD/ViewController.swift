@@ -49,10 +49,32 @@ class ViewController: UIViewController {
         
 //        loadJson()
         loadJsonObjectMapper()
-
+ 
         voSldDataOm.load(self.dataOM!)
         print("elapsed time: \(stopwatch.elapsedTimeString())")
-
+//
+//        
+//        let documentsURL = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)[0]
+//        let fileURL      = documentsURL.URLByAppendingPathComponent("city.plist")
+//        
+//        var fileManager  = NSFileManager.defaultManager()
+//        let dict         = NSMutableDictionary()
+//        dict.setValue(voSldDataOm, forKey: "data")
+//        
+//        var bundle : NSString = NSBundle.mainBundle().pathForResource("data", ofType: "plist")
+//        fileManager.copyItemAtPath(bundle, toPath: path, error:nil)
+//        data.setObject(object, forKey: "object")
+//        data.writeToFile(path, atomically: true)
+//        
+//        if (!(fileManager.fileExistsAtPath(<#T##path: String##String#>)(path)))
+//        {
+//                    }
+//
+//        
+//        
+// 
+//        
+//        
         configPicker()
     }
     override func viewDidAppear(animated: Bool) {}

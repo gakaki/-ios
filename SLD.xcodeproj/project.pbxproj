@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061FDA1D1D6BEBCC00D307BD /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061FDA1C1D6BEBCC00D307BD /* PlistManager.swift */; };
 		0677638E1D6B3CC7003F615E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677638D1D6B3CC7003F615E /* AppDelegate.swift */; };
 		067763931D6B3CC7003F615E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067763911D6B3CC7003F615E /* Main.storyboard */; };
 		067763951D6B3CC7003F615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067763941D6B3CC7003F615E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061FDA1C1D6BEBCC00D307BD /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
 		0677638A1D6B3CC7003F615E /* SLD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0677638D1D6B3CC7003F615E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		067763921D6B3CC7003F615E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		0677638C1D6B3CC7003F615E /* SLD */ = {
 			isa = PBXGroup;
 			children = (
+				061FDA1C1D6BEBCC00D307BD /* PlistManager.swift */,
 				0677639F1D6B3CE9003F615E /* city.json */,
 				067763A01D6B3CE9003F615E /* ModelVoSld.swift */,
 				067763A11D6B3CE9003F615E /* ViewController.swift */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				067763A61D6B3D02003F615E /* main.m in Sources */,
+				061FDA1D1D6BEBCC00D307BD /* PlistManager.swift in Sources */,
 				0677638E1D6B3CC7003F615E /* AppDelegate.swift in Sources */,
 				067763A81D6B437E003F615E /* Stopwatch.swift in Sources */,
 				067763A41D6B3CE9003F615E /* ViewController.swift in Sources */,
